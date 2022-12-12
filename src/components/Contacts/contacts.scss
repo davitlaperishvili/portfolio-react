@@ -1,0 +1,116 @@
+@import "../../index.scss";
+div.content{
+    &.contact {
+        div.contact_info {
+            div.info_listing {
+                margin-bottom: 40px;
+                @media (max-width: 1366px) {
+                    margin-bottom: 30px;
+                }
+                @media (max-width: 768px) {
+                    margin-bottom: 20px;
+                }
+                div.info_item {
+                    margin-bottom: 10px;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                    span,
+                    a {
+                        font-size: 18px;
+                        color: $ccorp;
+                        @media (max-width: 768px) {
+                            font-size: 16px;
+                        }
+                    }
+                    a {
+                        color: $textColor;
+                        &:hover {
+                            color: $cwhite;
+                        }
+                    }
+                }
+            }
+            div.socials {
+                ul {
+                    li {
+                        a {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 30px;
+                            color: $textColor;
+                            width: auto;
+                            height: auto;
+                            @media (max-width: 1680px) {
+                                font-size: 26px;
+                            }
+                            @media (max-width: 1024px) {
+                                font-size: 24px;
+                            }
+                            @media (max-width: 768px) {
+                                font-size: 22px;
+                            }
+                            svg{
+                                path{
+                                    fill: $textColor;
+                                }
+                            }
+                            &:hover {
+                                //color: $ccorp;
+                                svg{
+                                    path{
+                                        fill: $ccorp
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+main.light{
+    div.content{
+        &.contact {
+            div.contact_info {
+                div.info_listing {
+                    div.info_item {
+                        span,
+                        a {
+                            color: $cpurple;
+                        }
+                        a {
+                            color: $cbase;
+                            &:hover {
+                                color: $cmain;
+                            }
+                        }
+                    }
+                }
+                div.socials {
+                    ul {
+                        li {
+                            a {
+                                color: $cbase;
+                                svg{
+                                    path{
+                                        fill: $cbase;
+                                    }
+                                }
+                                &:hover {
+                                    svg{
+                                        path{
+                                            fill: $cpurple
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

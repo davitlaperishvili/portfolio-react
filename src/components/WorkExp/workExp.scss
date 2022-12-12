@@ -1,0 +1,67 @@
+@import "../../index.scss";
+div.expList{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    *{
+        color: $cwhite;
+    }
+    .expItem{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba($cwhite, 0.5);
+        &:last-child{
+            margin-bottom: 0;
+        }
+        .expItemLeft{
+            padding: 10px 15px 10px 0;
+            .expItemPosition{
+                margin-bottom: 10px;
+                font-size: 30px;
+                font-weight: 600;
+            }
+            .expItemCompany{
+                display: flex;
+                align-items: flex-end;
+                margin-bottom: 10px;
+                .expItemCompanyName{
+                    font-size: 24px;
+                    display: flex;
+                    align-items: center;
+                    &:after{
+                        content: "/";
+                        display: block;
+                        margin: 0 3px;
+                    }
+                }
+                .expItemCompanyLocation{
+                    font-size: 24px;
+                    font-style: italic;
+                }
+            }
+            .expItemDate{
+                font-size: 20px;
+                font-style: italic;
+            }
+        }
+        .expItemPositionDesc{
+            font-size: 18px;
+        }
+    }
+}
+
+main.light{
+    div.expList{
+        *{
+            color: $cbase;
+        }
+        .expItem{
+            border-color: $cbase;
+            .expItemLeft{
+            }
+        }
+    }
+}

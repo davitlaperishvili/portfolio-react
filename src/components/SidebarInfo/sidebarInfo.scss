@@ -1,0 +1,306 @@
+@import "../../index.scss";
+header.left_section_header{
+  padding-bottom: 75px;
+  border-bottom: 2px solid $mfc;
+  @media(max-width: 1680px){
+    padding-bottom: 70px;
+  }
+  @media(max-width: 1440px){
+    padding-bottom: 60px;
+  }
+  @media(max-width: 1366px){
+    padding-bottom: 50px;
+  }
+  @media(max-width: 1280px){
+    padding-bottom: 40px;
+  }
+  @media(max-width: 1024px){
+    display: flex;
+    align-items: center;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  figure{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+    @media(max-width: 1024px){
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+    @media(max-width: 420px){
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+    }
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    &:hover{
+      transform: translateY(-5px);
+    }
+  }
+  .sidebar_gallery{
+    margin-bottom: 20px;
+    button{
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      cursor: pointer;
+      overflow: hidden;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        transition: 0.4s;
+      }
+      &:hover{
+        img{
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  div.left_section_header_text{
+    h2{
+      a{
+        color: $cwhite;
+        font-size: 28px;
+        font-weight: 700;
+        @media(max-width: 1680px){
+          font-size: 26px;
+        }
+        @media(max-width: 1366px){
+          font-size: 24px;
+        }
+        @media(max-width: 1280px){
+          font-size: 22px;
+        }
+        @media(max-width: 1024px){
+          font-size: 20px;
+        }
+        @media(max-width: 768px){
+          font-size: 18px;
+        }
+        @media(max-width: 420px){
+          font-size: 16px;
+        }
+        &:hover{
+          color: $cpurple;
+        }
+      }
+    }
+    div.email{
+      a{
+        color: $mfc;
+        font-size: 18px;
+        font-weight: 400;
+        @media(max-width: 1440px){
+          font-size: 16px;
+        }
+        @media(max-width: 1024px){
+          font-size: 14px;
+        }
+        @media(max-width: 420px){
+          font-size: 12px;
+        }
+        &:hover{
+          color: $cpurple;
+        }
+      }
+    }
+  }
+}
+.theme_toggler{
+  display: flex;
+  //justify-content: center;
+  color: $cwhite;
+  //cursor: pointer;
+  // Toggle switch
+  .theme-switch__input,
+  .theme-switch__label {
+    //position: absolute;
+    z-index: 1;
+  }
+  .theme-switch__input {
+    opacity: 0;
+    
+    &:hover,
+    &:focus {
+      + .theme-switch__label {
+        background-color: lightSlateGray;
+      }
+      
+      + .theme-switch__label span::after {
+        background-color: lighten(lightBlue, 10%);
+      }
+    }
+  }
+
+  .theme-switch__label {
+    padding: 10px;
+    margin: 30px 0 0 13px;
+    transition: background-color 200ms ease-in-out;
+    width: 70px;
+    height: 30px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: lightSlateGray;
+    box-shadow: -4px 4px 15px inset rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    &::before,
+    &::after {
+      font-size: 1.5rem;
+      position: absolute;
+      transform: translate3d(0, -50%, 0);
+      top: 50%;
+    }
+    
+    &::before {
+      content: '\263E';
+      right: 100%;
+      margin-right: 10px;
+      color: orange;
+    }
+    
+    &::after {
+      content: '\263C';
+      left: 100%;
+      margin-left: 10px;
+      color: lightSlateGray;
+    }
+    
+    span {
+      position: absolute;
+      bottom: calc(100% + 10px);
+      left: 0;
+      width: 100%;
+    }
+    
+    span::after {
+      position: absolute;
+      top: calc(100% + 15px);
+      left: 5px;
+      width: 20px;
+      height: 20px;
+      content: '';
+      border-radius: 50%;
+      background-color: lightBlue;
+      transition: transform 200ms, background-color 200ms;
+      box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.4);
+    }
+  }
+
+  // Checked label styles
+  .theme-switch__input:checked ~ .theme-switch__label {
+      background-color: slateGray;
+    
+    &::before {
+      color: lightSlateGray;
+    }
+    
+    &::after {
+      color: $cwhite;
+    }
+    
+    span::after {
+      transform: translate3d(38px, 0, 0);
+    }
+  }
+}
+main.light{
+  .theme_toggler{
+    color: $cbase;
+  }
+  header.left_section_header{
+    padding-bottom: 75px;
+    border-bottom: 2px solid $mfc;
+    @media(max-width: 1680px){
+      padding-bottom: 70px;
+    }
+    @media(max-width: 1440px){
+      padding-bottom: 60px;
+    }
+    @media(max-width: 1366px){
+      padding-bottom: 50px;
+    }
+    @media(max-width: 1280px){
+      padding-bottom: 40px;
+    }
+    @media(max-width: 1024px){
+      display: flex;
+      align-items: center;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+    // figure{
+    //   width: 80px;
+    //   height: 80px;
+    //   margin-bottom: 15px;
+    //   border-radius: 20px;
+    //   overflow: hidden;
+    //   @media(max-width: 1024px){
+    //     margin-right: 20px;
+    //     margin-bottom: 0;
+    //   }
+    //   @media(max-width: 420px){
+    //     width: 50px;
+    //     height: 50px;
+    //     margin-right: 10px;
+    //   }
+    //   img{
+    //     width: 100%;
+    //     height: 100%;
+    //     object-fit: cover;
+    //   }
+    //   &:hover{
+    //     transform: translateY(-5px);
+    //   }
+    // }
+    .sidebar_gallery{
+      margin-bottom: 20px;
+      button{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        cursor: pointer;
+        overflow: hidden;
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 50%;
+          transition: 0.4s;
+        }
+        &:hover{
+          img{
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+    div.left_section_header_text{
+      h2{
+        a{
+          color: $cbase;
+          &:hover{
+            color: $cmain;
+          }
+        }
+      }
+      div.email{
+        a{
+          color: $cbase;
+          &:hover{
+            color: $cmain;
+          }
+        }
+      }
+    }
+  }
+}

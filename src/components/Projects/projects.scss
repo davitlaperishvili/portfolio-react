@@ -1,0 +1,211 @@
+@import "../../index.scss";
+div.works_listing {
+    ul {
+        @extend .no-list;
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: repeat(3, 1fr);
+        @media (max-width: 1680px) {
+            grid-gap: 40px;
+        }
+        @media (max-width: 1440px) {
+            grid-gap: 30px;
+        }
+        @media (max-width: 1366px) {
+            grid-gap: 50px;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media (max-width: 1024px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media (max-width: 768px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        @media (max-width: 420px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        li {
+            figure {
+                margin-bottom: 15px;
+                border-radius: 20px;
+                overflow: hidden;
+                a {
+                    display: block;
+                    img {
+                        width: 100%;
+                        height: 220px;
+                        object-fit: cover;
+                    }
+                }
+                div.hover_block {
+                    @extend .overlay;
+                    visibility: hidden;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    z-index: 99;
+                    a {
+                        @extend .flex;
+                        display: none;
+                        padding: 10px 20px;
+                        color: $cwhite;
+                        font-size: 18px;
+                        font-weight: 700;
+                        border: 1px solid $cwhite;
+                        border-radius: 10px;
+                        &:hover {
+                            background-color: $cpdf;
+                            border: 1px solid $cpdf;
+                        }
+                    }
+                }
+                &:hover {
+                    a {
+                        img {
+                            transform: scale(1.1);
+                        }
+                    }
+                    div.hover_block {
+                        visibility: visible;
+                        background-color: rgba($cblack, 0.7);
+                        a {
+                            display: flex;
+                        }
+                    }
+                }
+            }
+            div.work_details {
+                h3.work_title {
+                    margin-bottom: 10px;
+                    a {
+                        color: $textColor;
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+                    &:hover {
+                        a {
+                            color: $cpurple;
+                        }
+                    }
+                }
+                div.work_desc {
+                    margin-bottom: 30px;
+                    color: $textColor;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 1.8;
+                    *{
+                        color: $textColor;
+                    }
+                }
+                div.visite_site {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    a {
+                        display: inline-block;
+                        padding-bottom: 5px;
+                        color: $cpurple;
+                        font-size: 16px;
+                        font-weight: 400;
+                        overflow: hidden;
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            display: block;
+                            background-color: $cpurple;
+                            width: 40%;
+                            height: 2px;
+                            bottom: 0;
+                            left: -100%;
+                        }
+                        &:hover {
+                            &:after {
+                                left: 0;
+                            }
+                        }
+                    }
+                    button{
+                        color: $cwhite;
+                        cursor: pointer;
+                        &:hover{
+                            color: $ccorp;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.ReactModal__Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba($cblack, 0.7) !important;
+  }
+main.light{
+    div.works_listing {
+        ul {
+            li {
+                box-shadow: 0 5px 15px rgba($cblack, 0.15);
+                figure {
+                    margin-bottom: 0;
+                    border-radius: 0;
+                    img{
+                        border-radius: 0
+                        
+                    }
+                }
+                div.work_details {
+                    padding: 15px;
+                    h3.work_title {
+                        a {
+                            color: $cbase;
+                        }
+                        &:hover {
+                            a {
+                                color: $cpurple;
+                            }
+                        }
+                    }
+                    div.work_desc {
+                        color: $cbase;
+                        *{
+                            color: $cbase;
+                        }
+                    }
+                    div.visite_site {
+                        button{
+                            color: $cbase;
+                            cursor: pointer;
+                            &:hover{
+                                color: $ccorp;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.project_desc{
+    padding: 20px;
+    .project_name{
+        margin-bottom: 20px;
+        font-size: 25px;
+        color: $cbase;
+        font-weight: 700;
+        text-align: center;
+    }
+    .project_text{
+        font-size: 16px;
+        p{
+            margin-bottom: 15px;
+        }
+        span{
+            font-weight: 700;
+        }
+    }
+}

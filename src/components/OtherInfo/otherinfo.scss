@@ -1,0 +1,97 @@
+@import "../../index.scss";
+div.content{
+    &.other_info {
+        div.other_info_listing {
+            display: grid;
+            grid-gap: 50px;
+            grid-template-columns: repeat(2, 1fr);
+            @media (max-width: 1680px) {
+            }
+            @media (max-width: 1440px) {
+                grid-gap: 40px;
+            }
+            @media (max-width: 1366px) {
+            }
+            @media (max-width: 1280px) {
+                grid-gap: 30px;
+            }
+            @media (max-width: 1024px) {
+                grid-gap: 15px;
+            }
+            @media (max-width: 768px) {
+                grid-template-columns: 1fr;
+            }
+            @media (max-width: 420px) {
+            }
+            div.other_info_item {
+                h3.other_info_item_title {
+                    margin-bottom: 20px;
+                    color: $cwhite;
+                    font-size: 24px;
+                    font-weight: 700;
+                    @media (max-width: 1680px) {
+                        font-size: 22px;
+                    }
+                    @media (max-width: 1024px) {
+                        margin-bottom: 15px;
+                        font-size: 20px;
+                    }
+                }
+                ul.block_desc {
+                    @extend .no-list;
+                    display: grid;
+                    row-gap: 10px;
+                    grid-template-columns: repeat(2, 200px);
+                    @media (max-width: 1680px) {
+                    }
+                    @media (max-width: 1440px) {
+                        grid-template-columns: repeat(2, 180px);
+                    }
+                    @media (max-width: 1366px) {
+                    }
+                    @media (max-width: 1280px) {
+                        grid-template-columns: repeat(2, 150px);
+                    }
+                    @media (max-width: 1024px) {
+                        grid-template-columns: repeat(2, 130px);
+                    }
+                    @media (max-width: 768px) {
+                        column-gap: 40px;
+                    }
+                    @media (max-width: 420px) {
+                        column-gap: 20px;
+                    }
+                    li {
+                        color: $textColor;
+                        font-size: 18px;
+                        font-weight: 400;
+                        @media (max-width: 1680px) {
+                            font-size: 16px;
+                        }
+                        @media (max-width: 1024px) {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+main.light{
+    div.content{
+        &.other_info {
+            div.other_info_listing {
+                div.other_info_item {
+                    h3.other_info_item_title {
+                        color: $cmain;
+                    }
+                    ul.block_desc {
+                        li {
+                            color: $cbase;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
