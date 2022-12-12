@@ -7,7 +7,7 @@ export default function Menu() {
             <nav className="navigation">
                 <ul>
                     <li>
-                        <NavLink to="/portfolio-react">Web Projects</NavLink>
+                        <NavLink to="/portfolio-react">Projects</NavLink>
                     </li>
                     <li>
                         <NavLink to="/portfolio-react/experience">Experience</NavLink>
