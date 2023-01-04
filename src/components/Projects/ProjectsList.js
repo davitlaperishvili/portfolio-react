@@ -12,9 +12,9 @@ export default function ProjectsList(props) {
 
     useEffect(() => {
         async function fetchData() {
-            const projectsCol = collection(db, "projects");
-            const projectsSnapshot = await getDocs(projectsCol);
-            const projectsList = projectsSnapshot.docs.map((doc) => doc.data());
+            // const projectsCol = collection(db, "projects");
+            // const projectsSnapshot = await getDocs(projectsCol);
+            // const projectsList = projectsSnapshot.docs.map((doc) => doc.data());
             setProjectsList(projects);
             setCount(projects.length);
         }

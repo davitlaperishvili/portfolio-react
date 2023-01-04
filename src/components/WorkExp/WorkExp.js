@@ -9,9 +9,9 @@ export default function WorkExp() {
     const [experienceList, setExperienceList] = useState([]);
     useEffect(() => {
         async function fetchData() {
-            const expCol = collection(db, "work-experience");
-            const expSnapshot = await getDocs(expCol);
-            const expList = expSnapshot.docs.map((doc) => doc.data());
+            // const expCol = collection(db, "work-experience");
+            // const expSnapshot = await getDocs(expCol);
+            // const expList = expSnapshot.docs.map((doc) => doc.data());
             setExperienceList(experiences);
         }
         fetchData();
@@ -30,7 +30,7 @@ export default function WorkExp() {
                             </div>
                             <div className="expItemDate">{item.duration}</div>
                         </div>
-                        <div className="expItemPositionDesc">{item.description}</div>
+                        <div className="expItemPositionDesc" dangerouslySetInnerHTML={{ __html: item.description }} />
                     </div>
                 );
             });

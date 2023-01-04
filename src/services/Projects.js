@@ -1,5 +1,27 @@
 const projects = [
     {
+        projectId: 25,
+        projectName: "underson.clinic",
+        projectStatus: "Finished",
+        usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress",
+        projectImageName: "underson.jpg",
+        projectLink: "https://underson.clinic/",
+        projectDesc: `
+        <div class="project_desc">
+            <div class="project_name">underson.clinic</div>
+            <div class="project_text">
+                <p>Web Site for children's dentistry company</p>
+                <p>Site was created by using wordpress custom theme.</p>
+                <ul>
+                    <li>Advanced Custom Field Pro</li>
+                    <li>Contact form 7</li>
+                    <li>WP Rocket</li>
+                </ul>
+            </div>
+        </div>
+        `,
+    },
+    {
         projectId: 24,
         projectName: "dspro.io",
         projectStatus: "Finished",

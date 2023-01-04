@@ -13,7 +13,7 @@ export default function Menu(props) {
         <div className="main_content">
             <section className="right_section">
                 <Routes>
-                    <Route index path="/portfolio-react" element={<ProjectsList onProjectClick={props.onProjectClick} />}></Route>
+                    <Route exact path="/portfolio-react" element={<ProjectsList onProjectClick={props.onProjectClick} />}></Route>
                     <Route path="/portfolio-react/experience" element={<WorkExp />}></Route>
                     <Route path="/portfolio-react/other-information" element={<OtherInfo />}></Route>
                     <Route path="/portfolio-react/contacts" element={<Contacts />}></Route>
