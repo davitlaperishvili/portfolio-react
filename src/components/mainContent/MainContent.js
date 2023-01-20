@@ -19,6 +19,11 @@ export default function Menu(props) {
             element={<ProjectsList onProjectClick={props.onProjectClick} />}
           ></Route>
           <Route
+            index
+            path="/portfolio-react/react-projects"
+            element={<ProjectsList onProjectClick={props.onProjectClick} />}
+          ></Route>
+          <Route
             path="/portfolio-react/experience"
             element={<WorkExp />}
           ></Route>
