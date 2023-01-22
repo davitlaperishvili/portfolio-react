@@ -122,6 +122,19 @@ div.content{
                                 }
                             }
                         }
+                        &.no_bar{
+                            display: flex;
+                            gap: 10px;
+                            flex-wrap: wrap;
+                            li{
+                                progress{
+                                    display: none;
+                                }
+                                span{
+                                    padding: 5px 15px;
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -155,6 +168,9 @@ main.light{
                                     }
                                     &::-moz-progress-bar {
                                         background-color: rgba($cbase, 0.4);
+                                    }
+                                    &:after{
+                                        color: $cbase;
                                     }
                                 }
                                 span {
