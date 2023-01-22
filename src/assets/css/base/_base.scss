@@ -167,9 +167,13 @@ section.left_section{
 		padding: 45px 30px;
 	}
 	@media(max-width: 1024px){
-		min-height: 0;
-		padding: 20px 0;
+		min-height: unset;
+		height: auto;
+		padding: 20px 15px;
 		background-color: transparent;
+		margin-bottom: 20px;
+		width: calc(100% + 30px);
+		left: -15px;
 	}
   }
   

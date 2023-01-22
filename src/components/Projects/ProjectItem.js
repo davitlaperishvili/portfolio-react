@@ -31,7 +31,6 @@ export default function ProjectItem({
   }
 
   function renderRepoLink() {
-    console.log(projectRepoLink);
     if (projectRepoLink) {
       return (
         <a
