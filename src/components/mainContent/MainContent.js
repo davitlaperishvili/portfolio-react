@@ -39,15 +39,15 @@ export default function Menu(props) {
           {/* admin panel router */}
 
           <Route
-            path="admin"
+            path="/portfolio-react/admin"
             element={<Admin />}
           >
             <Route
-              path="add-experience"
+              path="/portfolio-react/add-experience"
               element={<AdminAddExp />}
             ></Route>
             <Route
-              path="add-portfolio"
+              path="/portfolio-react/add-portfolio"
               element={<AdminAddPortfolio />}
             ></Route>
             <Route

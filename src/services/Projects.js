@@ -44,6 +44,28 @@ const projects = [
         `,
   },
   {
+    projectId: 44,
+    projectName: "zsmile-seliger.ru",
+    projectStatus: true,
+    usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress",
+    projectImageName: "smileton.jpg",
+    projectLink: "https://zsmile-seliger.ru/",
+    projectDesc: `
+        <div class="project_desc">
+            <div class="project_name">https://zsmile-seliger.ru/</div>
+            <div class="project_text">
+                <p>Web Site for dentistry company</p>
+                <p>Site was created by using wordpress custom theme.</p>
+                <ul>
+                    <li>Advanced Custom Field Pro</li>
+                    <li>Contact form 7</li>
+                    <li>WP Rocket</li>
+                </ul>
+            </div>
+        </div>
+        `,
+  },
+  {
     projectId: 23,
     projectName: "dfwcashforhouse.com",
     projectStatus: true,
@@ -382,6 +404,7 @@ const projects = [
     usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress",
     projectImageName: "krpk.png",
     projectLink: "https://davitlaperishvili.github.io/krpk/",
+    projectRepoLink: "https://github.com/davitlaperishvili/krpk",
     projectDesc: null,
   },
   {

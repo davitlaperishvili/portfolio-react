@@ -6,6 +6,7 @@ const reqctProjects = [
     usedTechnologies: "React, Next.js, TypeScript, Sass",
     projectImageName: "coming-soon.webp",
     projectLink: "https://davitlaperishvili.github.io/quiz-react/",
+    projectRepoLink: "https://github.com/davitlaperishvili/news-react",
     projectDesc: `
                     <div class="project_desc">
                         <div class="project_name">React News App</div>
@@ -22,6 +23,7 @@ const reqctProjects = [
     usedTechnologies: "React, Redux, Sass",
     projectImageName: "quiz-react.jpg",
     projectLink: "https://davitlaperishvili.github.io/quiz-react/",
+    projectRepoLink: "https://github.com/davitlaperishvili/quiz-react",
     projectDesc: `
                 <div class="project_desc">
                     <div class="project_name">React Quiz App</div>
@@ -38,6 +40,7 @@ const reqctProjects = [
     usedTechnologies: "React, Redux, Sass",
     projectImageName: "weather-react.jpg",
     projectLink: "https://davitlaperishvili.github.io/weather-react/",
+    projectRepoLink: "https://github.com/davitlaperishvili/weather-react",
     projectDesc: `
               <div class="project_desc">
                   <div class="project_name">React Weather App</div>
@@ -54,6 +57,7 @@ const reqctProjects = [
     usedTechnologies: "React, Redux, Sass",
     projectImageName: "dictionary-react.jpg",
     projectLink: "https://davitlaperishvili.github.io/dictionary-react/",
+    projectRepoLink: "https://github.com/davitlaperishvili/dictionary-react",
     projectDesc: `
             <div class="project_desc">
                 <div class="project_name">React Dictionary App</div>
@@ -70,6 +74,7 @@ const reqctProjects = [
     usedTechnologies: "React, Redux, Sass",
     projectImageName: "library-react.jpg",
     projectLink: "https://davitlaperishvili.github.io/library-react/",
+    projectRepoLink: "https://github.com/davitlaperishvili/library-react",
     projectDesc: `
         <div class="project_desc">
             <div class="project_name">React Library App</div>

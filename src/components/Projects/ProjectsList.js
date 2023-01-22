@@ -37,6 +37,7 @@ export default function ProjectsList(props) {
             projectImageName={project.projectImageName}
             projectDesc={project.projectDesc}
             onProjectClick={props.onProjectClick}
+            projectRepoLink={project.projectRepoLink}
           />
         );
       });
