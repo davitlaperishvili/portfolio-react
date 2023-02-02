@@ -60,6 +60,15 @@ function SidebarInfo(props) {
         </label>
       </div>
       {renderAdminInfo()}
+
+      <div className="download_cv">
+        <a
+          href="./Davit_Laperishvili.pdf"
+          download
+        >
+          Download CV
+        </a>
+      </div>
     </header>
   );
 }

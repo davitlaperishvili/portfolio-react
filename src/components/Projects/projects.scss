@@ -195,7 +195,13 @@ main.light{
                     div.work_desc {
                         color: $cbase;
                         *{
-                            color: $cbase;
+                          color: $cbase;
+                        }
+                        span.finished{
+                            color: $csuccess;
+                        }
+                        span.in_progress{
+                            color: $cdanger;
                         }
                     }
                     div.visite_site {

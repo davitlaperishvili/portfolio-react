@@ -3,9 +3,9 @@ const reqctProjects = [
     projectId: 5,
     projectName: "React News App",
     projectStatus: false,
-    usedTechnologies: "React, Next.js, TypeScript, Sass",
+    usedTechnologies: "React, NextJs, TypeScript, Sass",
     projectImageName: "coming-soon.webp",
-    projectLink: "https://davitlaperishvili.github.io/quiz-react/",
+    projectLink: "https://news-nextjs-psi.vercel.app/",
     projectRepoLink: "https://github.com/davitlaperishvili/news-react",
     projectDesc: `
                     <div class="project_desc">

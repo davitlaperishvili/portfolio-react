@@ -126,6 +126,23 @@ header.left_section_header{
       }
     }
   }
+  .download_cv{
+    margin-top: 20px;
+    a{
+      color: $mfc;
+      font-size: 18px;
+      font-weight: 400;
+      @media(max-width: 1440px){
+        font-size: 16px;
+      }
+      @media(max-width: 1024px){
+        text-align: center;
+      }
+      &:hover{
+        color: $cpurple;
+      }
+    }
+  }
 }
 .theme_toggler{
   display: flex;
@@ -262,6 +279,14 @@ main.light{
         }
       }
       div.email{
+        a{
+          color: $cbase;
+          &:hover{
+            color: $cmain;
+          }
+        }
+      }
+      .download_cv{
         a{
           color: $cbase;
           &:hover{
