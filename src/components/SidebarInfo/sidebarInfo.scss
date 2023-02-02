@@ -286,16 +286,16 @@ main.light{
           }
         }
       }
-      .download_cv{
-        a{
-          color: $cbase;
-          &:hover{
-            color: $cmain;
-          }
+    }
+    div.admin_info{
+      a{
+        color: $cbase;
+        &:hover{
+          color: $cmain;
         }
       }
     }
-    div.admin_info{
+    div.download_cv{
       a{
         color: $cbase;
         &:hover{
