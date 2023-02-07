@@ -1,7 +1,7 @@
 const reqctProjects = [
   {
     projectId: 5,
-    projectName: "React News App",
+    projectName: "React/TypeScript News App",
     projectStatus: false,
     usedTechnologies: "React, NextJs, TypeScript, Sass",
     projectImageName: "coming-soon.webp",
@@ -11,7 +11,7 @@ const reqctProjects = [
                     <div class="project_desc">
                         <div class="project_name">React News App</div>
                         <div class="project_text">
-                            <p>Comming soon...</p>
+                            <p>Test Project</p>
                         </div>
                     </div>
                     `,
@@ -28,10 +28,28 @@ const reqctProjects = [
                 <div class="project_desc">
                     <div class="project_name">React Quiz App</div>
                     <div class="project_text">
-                        <p>Comming soon...</p>
+                        <p>Test Project</p>
                     </div>
                 </div>
                 `,
+  },
+  {
+    projectId: 6,
+    projectName: "React/TypeScript Tip Calculator",
+    projectStatus: true,
+    usedTechnologies: "React, TypeScript, Vite, Sass",
+    projectImageName: "tip.jpg",
+    projectLink: "https://davitlaperishvili.github.io/bill-calculator-react/",
+    projectRepoLink:
+      "https://github.com/davitlaperishvili/bill-calculator-react",
+    projectDesc: `
+              <div class="project_desc">
+                  <div class="project_name">React/TypeScript Tip Calculator App</div>
+                  <div class="project_text">
+                      <p>Test Project</p>
+                  </div>
+              </div>
+              `,
   },
   {
     projectId: 3,
@@ -45,7 +63,7 @@ const reqctProjects = [
               <div class="project_desc">
                   <div class="project_name">React Weather App</div>
                   <div class="project_text">
-                      <p>Comming soon...</p>
+                      <p>Test Project</p>
                   </div>
               </div>
               `,
@@ -62,7 +80,7 @@ const reqctProjects = [
             <div class="project_desc">
                 <div class="project_name">React Dictionary App</div>
                 <div class="project_text">
-                    <p>Comming soon...</p>
+                    <p>Test Project</p>
                 </div>
             </div>
             `,
@@ -79,7 +97,7 @@ const reqctProjects = [
         <div class="project_desc">
             <div class="project_name">React Library App</div>
             <div class="project_text">
-                <p>Comming soon...</p>
+                <p>Test Project</p>
             </div>
         </div>
         `,
