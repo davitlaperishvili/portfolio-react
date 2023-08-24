@@ -1,16 +1,16 @@
 const projects = [
   {
-    projectId: 25,
-    projectName: "underson.clinic",
+    projectId: 251,
+    projectName: "tsistvala.ge",
     projectStatus: true,
     usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress",
-    projectImageName: "underson.jpg",
-    projectLink: "https://underson.clinic/",
+    projectImageName: "tsistvala.png",
+    projectLink: "https://tsistvala.ge/",
     projectDesc: `
         <div class="project_desc">
-            <div class="project_name">underson.clinic</div>
+            <div class="project_name">tsistvala.ge</div>
             <div class="project_text">
-                <p>Web Site for children's dentistry company</p>
+                <p>Web Site for children's educational books</p>
                 <p>Site was created by using wordpress custom theme.</p>
                 <ul>
                     <li>Advanced Custom Field Pro</li>
@@ -21,6 +21,30 @@ const projects = [
         </div>
         `,
   },
+
+  {
+    projectId: 28,
+    projectName: "mydataninja.com",
+    projectStatus: true,
+    usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress",
+    projectImageName: "mydataninja.png",
+    projectLink: "https://mydataninja.com/",
+    projectDesc: `
+        <div class="project_desc">
+            <div class="project_name">mydataninja.com</div>
+            <div class="project_text">
+                <p>Web Site for presenting Online Marketing Automation Tool</p>
+                <p>Site was created by using wordpress custom theme.</p>
+                <ul>
+                    <li>Advanced Custom Field Pro</li>
+                    <li>Contact form 7</li>
+                    <li>WP Rocket</li>
+                </ul>
+            </div>
+        </div>
+        `,
+  },
+
   {
     projectId: 24,
     projectName: "dspro.io",
@@ -43,50 +67,7 @@ const projects = [
         </div>
         `,
   },
-  {
-    projectId: 44,
-    projectName: "zsmile-seliger.ru",
-    projectStatus: true,
-    usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress",
-    projectImageName: "smileton.jpg",
-    projectLink: "https://zsmile-seliger.ru/",
-    projectDesc: `
-        <div class="project_desc">
-            <div class="project_name">https://zsmile-seliger.ru/</div>
-            <div class="project_text">
-                <p>Web Site for dentistry company</p>
-                <p>Site was created by using wordpress custom theme.</p>
-                <ul>
-                    <li>Advanced Custom Field Pro</li>
-                    <li>Contact form 7</li>
-                    <li>WP Rocket</li>
-                </ul>
-            </div>
-        </div>
-        `,
-  },
-  {
-    projectId: 23,
-    projectName: "dfwcashforhouse.com",
-    projectStatus: true,
-    usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress",
-    projectImageName: "dfw.jpg",
-    projectLink: "https://dfwcashforhouse.com/",
-    projectDesc: `
-        <div class="project_desc">
-            <div class="project_name">dfwcashforhouse.com</div>
-            <div class="project_text">
-                <p>Web Site for Marketing Company</p>
-                <p>Site was created by using wordpress custom theme.</p>
-                <ul>
-                    <li>Advanced Custom Field Pro</li>
-                    <li>Contact form 7</li>
-                    <li>WP Rocket</li>
-                </ul>
-            </div>
-        </div>
-        `,
-  },
+
   {
     projectId: 112,
     projectName: "tryhardagency.ru",
@@ -109,45 +90,7 @@ const projects = [
         </div>
         `,
   },
-  {
-    projectId: 111,
-    projectName: "smema.ge",
-    projectStatus: true,
-    usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress",
-    projectImageName: "smema.png",
-    projectLink: "https://smema.ge/",
-    projectDesc: `
-        <div class="project_desc">
-            <div class="project_name">smema.ge</div>
-            <div class="project_text">
-                <p>Web Site for Smema Software Solutions</p>
-                <p>Site was created by using HTML/CSS/JS/PHP</p>
-            </div>
-        </div>
-        `,
-  },
-  {
-    projectId: 1,
-    projectName: "mastercarpetusa.com",
-    projectStatus: true,
-    usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress",
-    projectImageName: "mastercarpet.jpg",
-    projectLink: "https://call.mastercarpetusa.com/",
-    projectDesc: `
-        <div class="project_desc">
-            <div class="project_name">mastercarpetusa.com</div>
-            <div class="project_text">
-                <p>Site was created by using wordpress custom theme.</p>
-                <span>Used plugins:</span>
-                <ul>
-                    <li>CMB2</li>
-                    <li>Contact form 7</li>
-                    <li>WP Rocket</li>
-                </ul>
-            </div>
-        </div>
-        `,
-  },
+
   {
     projectId: 2,
     projectName: "lucid-bubble.com",
@@ -170,21 +113,40 @@ const projects = [
         </div>
         `,
   },
+
   {
-    projectId: 3,
-    projectName: "my-chimney.com",
+    projectId: 111,
+    projectName: "smema.ge",
     projectStatus: true,
     usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress",
-    projectImageName: "chimney.jpg",
-    projectLink: "https://my-chimney.com",
+    projectImageName: "smema.png",
+    projectLink: "https://smema.ge/",
     projectDesc: `
         <div class="project_desc">
-            <div class="project_name">my-chimney.com</div>
+            <div class="project_name">smema.ge</div>
             <div class="project_text">
+                <p>Web Site for Smema Software Solutions</p>
+                <p>Site was created by using HTML/CSS/JS/PHP</p>
+            </div>
+        </div>
+        `,
+  },
+
+  {
+    projectId: 25,
+    projectName: "underson.clinic",
+    projectStatus: true,
+    usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress",
+    projectImageName: "underson.jpg",
+    projectLink: "https://underson.clinic/",
+    projectDesc: `
+        <div class="project_desc">
+            <div class="project_name">underson.clinic</div>
+            <div class="project_text">
+                <p>Web Site for children's dentistry company</p>
                 <p>Site was created by using wordpress custom theme.</p>
-                <span>Used plugins:</span>
                 <ul>
-                    <li>CMB2</li>
+                    <li>Advanced Custom Field Pro</li>
                     <li>Contact form 7</li>
                     <li>WP Rocket</li>
                 </ul>
@@ -192,24 +154,20 @@ const projects = [
         </div>
         `,
   },
+
   {
-    projectId: 12,
-    projectName: "cowboycashforhouse.com",
+    projectId: 30,
+    projectName: "thelocksmithexpert.com",
     projectStatus: true,
-    usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress",
-    projectImageName: "cowboy.jpg",
-    projectLink: "https://cowboycashforhouse.com",
+    usedTechnologies: "Wordpress theme, CSS",
+    projectImageName: "expert.png",
+    projectLink: "https://thelocksmithexpert.com/",
     projectDesc: `
         <div class="project_desc">
-            <div class="project_name">cowboycashforhouse.com</div>
+            <div class="project_name">thelocksmithexpert.com</div>
             <div class="project_text">
+                <p>Web Site for presenting locksmith services</p>
                 <p>Site was created by using wordpress custom theme.</p>
-                <span>Used plugins:</span>
-                <ul>
-                    <li>ACF</li>
-                    <li>Contact form 7</li>
-                    <li>WP Rocket</li>
-                </ul>
             </div>
         </div>
         `,
@@ -238,20 +196,37 @@ const projects = [
         `,
   },
   {
-    projectId: 14,
-    projectName: "kane-nadlan.com",
+    projectId: 13,
+    projectName: "olmait.com",
     projectStatus: true,
     usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress",
-    projectImageName: "kane.jpg",
-    projectLink: "https://kane-nadlan.com",
+    projectImageName: "olmait.jpg",
+    projectLink: "https://olmait.com",
     projectDesc: `
         <div class="project_desc">
-            <div class="project_name">kane-nadlan.com</div>
+            <div class="project_name"></div>
             <div class="project_text">
+            
+            </div>
+        </div>
+        `,
+  },
+
+  {
+    projectId: 44,
+    projectName: "zsmile-seliger.ru",
+    projectStatus: true,
+    usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress",
+    projectImageName: "smileton.jpg",
+    projectLink: "https://zsmile-seliger.ru/",
+    projectDesc: `
+        <div class="project_desc">
+            <div class="project_name">https://zsmile-seliger.ru/</div>
+            <div class="project_text">
+                <p>Web Site for dentistry company</p>
                 <p>Site was created by using wordpress custom theme.</p>
-                <span>Used plugins:</span>
                 <ul>
-                    <li>ACF</li>
+                    <li>Advanced Custom Field Pro</li>
                     <li>Contact form 7</li>
                     <li>WP Rocket</li>
                 </ul>
@@ -259,6 +234,25 @@ const projects = [
         </div>
         `,
   },
+
+  {
+    projectId: 46,
+    projectName: "call.statelocksandkey.com",
+    projectStatus: true,
+    usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn",
+    projectImageName: "statelocks.png",
+    projectLink: "https://call.statelocksandkey.com/",
+    projectDesc: `
+        <div class="project_desc">
+            <div class="project_name">https://call.statelocksandkey.com/</div>
+            <div class="project_text">
+                <p>Web Site for presenting locksmith services</p>
+                <p>Website is static and created by using HTML, CSS/SCSS, JS</p>
+            </div>
+        </div>
+        `,
+  },
+
   {
     projectId: 4,
     projectName: "kandinsky.media",
@@ -281,6 +275,33 @@ const projects = [
         </div>
         `,
   },
+
+  {
+    projectId: 10,
+    projectName: "boathirespain.com",
+    projectStatus: true,
+    usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress/Woocommerce",
+    projectImageName: "boathire.png",
+    projectLink: "https://boathirespain.com",
+    projectDesc: `
+        <div class="project_desc">
+            <div class="project_name">boathirespain.com</div>
+            <div class="project_text">
+                <p>Web Site for boat renting company in Spain, Italy and Malta</p>
+                <p>Site was created by using wordpress custom theme.</p>
+                <p>In this project I was a Full stack developer</p>
+                <span>Used plugins:</span>
+                <ul>
+                    <li>CMB2</li>
+                    <li>Contact form 7</li>
+                    <li>WP Rocket</li>
+                    <li>Woocommerce</li>
+                </ul>
+            </div>
+        </div>
+        `,
+  },
+
   {
     projectId: 5,
     projectName: "arfaflowers.ru",
@@ -306,52 +327,24 @@ const projects = [
         </div>
         `,
   },
+
   {
-    projectId: 6,
-    projectName: "psychology.v-gotlib.ru",
+    projectId: 11,
+    projectName: "imgambulance.com",
     projectStatus: true,
     usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress",
-    projectImageName: "got1.jpg",
-    projectLink: "https://psychology.v-gotlib.ru",
+    projectImageName: "imgambulance1.jpg",
+    projectLink: "https://imgambulance.com",
     projectDesc: `
         <div class="project_desc">
-            <div class="project_name">psychology.v-gotlib.ru</div>
+            <div class="project_name"></div>
             <div class="project_text">
-                <p>Web Site for Russian psychology center.</p>
-                <p>Site was created by using wordpress custom theme.</p>
-                <span>Used plugins:</span>
-                <ul>
-                    <li>Advanced Custom Fields pro</li>
-                    <li>Contact form 7</li>
-                    <li>WP Rocket</li>
-                </ul>
+            
             </div>
         </div>
         `,
   },
-  {
-    projectId: 7,
-    projectName: "tampa.sherits-locksmith.com",
-    projectStatus: true,
-    usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress",
-    projectImageName: "tampa-sherit.jpg",
-    projectLink: "https://tampa.sherits-locksmith.com",
-    projectDesc: `
-        <div class="project_desc">
-            <div class="project_name">tampa.sherits-locksmith.com</div>
-            <div class="project_text">
-                <p>Web Site for American locksmith company</p>
-                <p>Site was created by using wordpress custom theme.</p>
-                <span>Used plugins:</span>
-                <ul>
-                    <li>CMB2</li>
-                    <li>Contact form 7</li>
-                    <li>WP Rocket</li>
-                </ul>
-            </div>
-        </div>
-        `,
-  },
+
   {
     projectId: 8,
     projectName: "stroy-svai.ru",
@@ -397,6 +390,7 @@ const projects = [
         </div>
         `,
   },
+
   {
     projectId: 9,
     projectName: "КРПК",
@@ -407,63 +401,7 @@ const projects = [
     projectRepoLink: "https://github.com/davitlaperishvili/krpk",
     projectDesc: null,
   },
-  {
-    projectId: 10,
-    projectName: "boathirespain.com",
-    projectStatus: true,
-    usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress/Woocommerce",
-    projectImageName: "boathire.png",
-    projectLink: "https://boathirespain.com",
-    projectDesc: `
-        <div class="project_desc">
-            <div class="project_name">boathirespain.com</div>
-            <div class="project_text">
-                <p>Web Site for boat renting company in Spain, Italy and Malta</p>
-                <p>Site was created by using wordpress custom theme.</p>
-                <p>In this project I was a Full stack developer</p>
-                <span>Used plugins:</span>
-                <ul>
-                    <li>CMB2</li>
-                    <li>Contact form 7</li>
-                    <li>WP Rocket</li>
-                    <li>Woocommerce</li>
-                </ul>
-            </div>
-        </div>
-        `,
-  },
-  {
-    projectId: 11,
-    projectName: "imgambulance.com",
-    projectStatus: true,
-    usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress",
-    projectImageName: "imgambulance1.jpg",
-    projectLink: "https://imgambulance.com",
-    projectDesc: `
-        <div class="project_desc">
-            <div class="project_name"></div>
-            <div class="project_text">
-            
-            </div>
-        </div>
-        `,
-  },
-  {
-    projectId: 13,
-    projectName: "olmait.com",
-    projectStatus: true,
-    usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress",
-    projectImageName: "olmait.jpg",
-    projectLink: "https://olmait.com",
-    projectDesc: `
-        <div class="project_desc">
-            <div class="project_name"></div>
-            <div class="project_text">
-            
-            </div>
-        </div>
-        `,
-  },
+
   {
     projectId: 15,
     projectName: "disability.ge",
@@ -480,6 +418,7 @@ const projects = [
         </div>
         `,
   },
+
   {
     projectId: 17,
     projectName: "galkina3.ru",
@@ -496,6 +435,7 @@ const projects = [
         </div>
         `,
   },
+
   {
     projectId: 18,
     projectName: "gcm.ge",

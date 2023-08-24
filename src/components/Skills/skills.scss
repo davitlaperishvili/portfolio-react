@@ -139,48 +139,56 @@ div.content{
                 }
             }
         }
+        .section_text{
+          margin-bottom: 30px;
+          color: $cwhite;
+          font-size: 18px;
+        }
     }
 }
 main.light{
     div.content{
         &.other_info {
-            div.other_info_listing {
-                div.other_info_item {
-                    h3.other_info_item_title {
-                        color: $cmain;
-                    }
-                    ul.block_desc {
-                        li {
-                            color: $cbase;
-                        }
-                    }
-                    .skills {
-                        .skills_list{
-                            li{
-                                border: 1px solid $cbase;
-                                progress {
-                                    background-color: rgba($cbase, 0.4);
-                                    &::-webkit-progress-bar{
-                                        background-color: $cwhite;
-                                    }
-                                    &::-webkit-progress-value {
-                                        background-color: rgba($cbase, 0.4);
-                                    }
-                                    &::-moz-progress-bar {
-                                        background-color: rgba($cbase, 0.4);
-                                    }
-                                    &:after{
-                                        color: $cbase;
-                                    }
-                                }
-                                span {
-                                    color: $cbase;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
+          .section_text{
+            color: $cbase;
+          }
+          div.other_info_listing {
+              div.other_info_item {
+                  h3.other_info_item_title {
+                      color: $cmain;
+                  }
+                  ul.block_desc {
+                      li {
+                          color: $cbase;
+                      }
+                  }
+                  .skills {
+                      .skills_list{
+                          li{
+                              border: 1px solid $cbase;
+                              progress {
+                                  background-color: rgba($cbase, 0.4);
+                                  &::-webkit-progress-bar{
+                                      background-color: $cwhite;
+                                  }
+                                  &::-webkit-progress-value {
+                                      background-color: rgba($cbase, 0.4);
+                                  }
+                                  &::-moz-progress-bar {
+                                      background-color: rgba($cbase, 0.4);
+                                  }
+                                  &:after{
+                                      color: $cbase;
+                                  }
+                              }
+                              span {
+                                  color: $cbase;
+                              }
+                          }
+                      }
+                  }
+              }
+          }
         }
     }
 }

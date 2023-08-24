@@ -1,9 +1,26 @@
 const reqctProjects = [
   {
+    projectId: 6,
+    projectName: "Dashboard Kit",
+    projectStatus: false,
+    usedTechnologies: "React, TypeScript, Vite, Sass",
+    projectImageName: "dashboard.png",
+    projectLink: "https://davitlaperishvili.github.io/dashboard-react/",
+    projectRepoLink: "https://github.com/davitlaperishvili/dashboard-react",
+    projectDesc: `
+                    <div class="project_desc">
+                        <div class="project_name">React/Typescript Dashboard Kit</div>
+                        <div class="project_text">
+                            <p>Test Project</p>
+                        </div>
+                    </div>
+                    `,
+  },
+  {
     projectId: 5,
     projectName: "React/TypeScript News App",
     projectStatus: false,
-    usedTechnologies: "React, NextJs, TypeScript, Sass",
+    usedTechnologies: "React, NextJs, TypeScript, SSR, Sass",
     projectImageName: "coming-soon.webp",
     projectLink: "https://news-nextjs-psi.vercel.app/",
     projectRepoLink: "https://github.com/davitlaperishvili/news-react",

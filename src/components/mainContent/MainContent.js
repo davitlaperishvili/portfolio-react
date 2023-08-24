@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, Routes, Route, useLocation } from "react-router-dom";
 import Contacts from "../Contacts/Contacts";
-import OtherInfo from "../OtherInfo/OtherInfo";
+import Skills from "../Skills/Skills";
 import Admin from "../Admin/Admin";
 import ProjectsList from "../Projects/ProjectsList";
 import "./mainContent.scss";
@@ -15,7 +15,7 @@ export default function Menu(props) {
         <Routes>
           <Route
             index
-            path="/portfolio-react"
+            path="/portfolio-react/web-projects"
             element={<ProjectsList onProjectClick={props.onProjectClick} />}
           ></Route>
           <Route
@@ -27,10 +27,7 @@ export default function Menu(props) {
             path="/portfolio-react/experience"
             element={<WorkExp />}
           ></Route>
-          <Route
-            path="/portfolio-react/other-information"
-            element={<OtherInfo />}
-          ></Route>
+          <Route path="/portfolio-react" element={<Skills />}></Route>
           <Route
             path="/portfolio-react/contacts"
             element={<Contacts />}
@@ -38,18 +35,9 @@ export default function Menu(props) {
 
           {/* admin panel router */}
 
-          <Route
-            path="/portfolio-react/admin"
-            element={<Admin />}
-          >
-            <Route
-              path="add-experience"
-              element={<AdminAddExp />}
-            ></Route>
-            <Route
-              path="add-portfolio"
-              element={<AdminAddPortfolio />}
-            ></Route>
+          <Route path="/portfolio-react/admin" element={<Admin />}>
+            <Route path="add-experience" element={<AdminAddExp />}></Route>
+            <Route path="add-portfolio" element={<AdminAddPortfolio />}></Route>
             <Route
               path="*"
               element={

@@ -7,18 +7,15 @@ export default function Menu() {
       <nav className="navigation">
         <ul>
           <li>
-            <NavLink
-              to="/portfolio-react/"
-              end
-            >
-              Web Projects
+            <NavLink to="/portfolio-react" end>
+              Skills
             </NavLink>
           </li>
           <li>
-            <NavLink
-              to="/portfolio-react/react-projects"
-              end
-            >
+            <NavLink to="/portfolio-react/web-projects">Web Projects</NavLink>
+          </li>
+          <li>
+            <NavLink to="/portfolio-react/react-projects">
               React Test Projects
             </NavLink>
           </li>
@@ -26,12 +23,7 @@ export default function Menu() {
             <NavLink to="/portfolio-react/experience">Experience</NavLink>
           </li>
           <li>
-            <NavLink to="/portfolio-react/other-information">
-              Other Info
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/portfolio-react/contacts">Contacts</NavLink>
+            <NavLink to="/portfolio-react/contacts">Contact me</NavLink>
           </li>
         </ul>
       </nav>
