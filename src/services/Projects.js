@@ -1,9 +1,35 @@
 const projects = [
   {
+    projectId: 2531,
+    projectName: "onestservice.com",
+    projectStatus: true,
+    usedTechnologies: "Html, Sass, JS, Gulp, Yarn, Wordpress",
+    projectImageName: "onest.png",
+    projectLink: "https://onestservice.com/",
+    projectDesc: `
+      <div class="project_desc">
+          <div class="project_name">onestservice.com</div>
+      </div>
+      `,
+  },
+  {
+    projectId: 253,
+    projectName: "pokiesau.net",
+    projectStatus: true,
+    usedTechnologies: "Html, Sass, JS, Gulp, Yarn, Wordpress",
+    projectImageName: "pokie.png",
+    projectLink: "https://pokiesau.net/",
+    projectDesc: `
+        <div class="project_desc">
+            <div class="project_name">pokiesau.net</div>
+        </div>
+        `,
+  },
+  {
     projectId: 251,
     projectName: "tsistvala.ge",
     projectStatus: true,
-    usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress",
+    usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn, Wordpress , Woocommerce",
     projectImageName: "tsistvala.png",
     projectLink: "https://tsistvala.ge/",
     projectDesc: `
@@ -44,7 +70,20 @@ const projects = [
         </div>
         `,
   },
-
+  {
+    projectId: 281,
+    projectName: "mirjcb.ru",
+    projectStatus: true,
+    usedTechnologies: "Html, Sass, Js/Jq, Gulp, Yarn",
+    projectImageName: "mirjcb.png",
+    projectLink: "https://mirjcb.ru/",
+    projectDesc: `
+        <div class="project_desc">
+            <div class="project_name">mirjcb.ru</div>
+            
+        </div>
+        `,
+  },
   {
     projectId: 24,
     projectName: "dspro.io",

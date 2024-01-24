@@ -21,10 +21,7 @@ function SidebarInfo(props) {
     if (state.user.isSignIn) {
       return (
         <div className="admin_info">
-          <NavLink
-            to="/portfolio-react/admin"
-            end
-          >
+          <NavLink to="/portfolio-react/admin" end>
             Admin Panel
           </NavLink>
         </div>
@@ -52,21 +49,15 @@ function SidebarInfo(props) {
           className="theme-switch__input"
           onChange={onChangeTheme}
         />
-        <label
-          htmlFor="themeSwitch"
-          className="theme-switch__label"
-        >
+        <label htmlFor="themeSwitch" className="theme-switch__label">
           <span></span>
         </label>
       </div>
       {renderAdminInfo()}
 
       <div className="download_cv">
-        <a
-          href="./Davit_Laperishvili.pdf"
-          download
-        >
-          Download CV
+        <a href="./Davit_Laperishvili.pdf" target="_blank">
+          Check/Download CV
         </a>
       </div>
     </header>

@@ -7,7 +7,7 @@ export default function Menu() {
       <nav className="navigation">
         <ul>
           <li>
-            <NavLink to="/portfolio-react" end>
+            <NavLink to="/portfolio-react/" end>
               Skills
             </NavLink>
           </li>
